@@ -25,5 +25,5 @@
 
 // === 
 
-console.log("2" === 2); // these strict check also checks the Data type i.e. it is
-//false 
+console.log("2" === 2); // these strict check also checks the Data type i.e. it is givingoutput
+//false
