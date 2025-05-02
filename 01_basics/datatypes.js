@@ -18,7 +18,7 @@ const anotherId = Symbol ('123')
 
 console.log(id === anotherId);
 
-// const bigNumber = 2334234234234234234324n
+// const bigNumber = 2334234234234234234345344454324n
 
 
 // Refrence Type or Non-Primitive 
