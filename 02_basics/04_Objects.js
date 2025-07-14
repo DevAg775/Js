@@ -77,8 +77,8 @@
 //     "price": "free"
 // }
 
-[// Sometimes When we get API in format of arrays instead of JSON
-    {},
-    {},
-    {}
-]
+// [// Sometimes When we get API in format of arrays instead of JSON
+//     {},
+//     {},
+//     {}
+// ]
