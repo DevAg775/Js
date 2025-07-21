@@ -71,13 +71,13 @@
 // console.log(courseInstructor);
 // console.log(instructor);
 
-{// JSON which is a type of object
+// { JSON which is a type of object
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
 
-// [// Sometimes When we get API in format of arrays instead of JSON
+// [ Sometimes When we get API in format of arrays instead of JSON
 //     {},
 //     {},
 //     {}
