@@ -23,13 +23,13 @@
 // const obj2 = {3: "a", 4: "b"}
 // const obj4 = {5: "a", 6: "b"}
 
-// // const obj3 = { obj1, obj2 }
-// // const obj3 = Object.assign(obj1, obj2, obj4) // assign operator used
+// const obj3 = { obj1, obj2 }
+// const obj3 = Object.assign(obj1, obj2, obj4) // assign operator used
 
-// // const obj3 = Object.assign({}, obj1, obj2, obj4) // empty is used for target and source read mdn of assign operator
+// const obj3 = Object.assign({}, obj1, obj2, obj4) // empty is used for target and source read mdn of assign operator
 
 // const obj3 = {...obj1, ...obj2} // here spread can also be used to avoid array same problem
-// // console.log(obj3);
+// console.log(obj3);
 
 
 // const users = [
@@ -45,7 +45,7 @@
 //         id: 1,
 //         email: "h@gmail.com"
 //     },
-// ]  // array ke andar objects
+// ]   array ke andar objects
 
 // users[1].email   // to access object present in side the array
 // console.log(tinderUser);
@@ -63,7 +63,7 @@
 //     courseInstructor: "hitesh"
 // }
 
-// // course.courseInstructor
+//  course.courseInstructor
 // const {courseInstructor} = course // another way of accessing values in objects
 
 // const {courseInstructor: instructor} = course // method used to de-structure like courseinstructor can be now called as instructor {de-structing}
