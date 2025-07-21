@@ -1,5 +1,5 @@
 // const tinderUser = new Object() //singleton object
-// // const tinderUser = {} // non singleton object
+// const tinderUser = {} // non singleton object
 
 // tinderUser.id = "123abc"
 // tinderUser.name = "Sammy"
@@ -16,7 +16,7 @@
 //         }
 //     }
 // }
-// // We can use nested objects and can access them with the . method
+// We can use nested objects and can access them with the . method
 // console.log(regularUser.fullname.userfullname);
 
 // const obj1 = {1: "a", 2: "b"}
@@ -63,7 +63,7 @@
 //     courseInstructor: "hitesh"
 // }
 
-//  course.courseInstructor
+// course.courseInstructor
 // const {courseInstructor} = course // another way of accessing values in objects
 
 // const {courseInstructor: instructor} = course // method used to de-structure like courseinstructor can be now called as instructor {de-structing}
