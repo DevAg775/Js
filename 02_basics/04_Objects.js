@@ -70,8 +70,8 @@
 
 // console.log(courseInstructor);
 // console.log(instructor);
-
-// { JSON which is a type of object
+// JSON which is a type of object
+// { 
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
