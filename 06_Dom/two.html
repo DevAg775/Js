@@ -8,7 +8,7 @@
 </head>
 <body style="background-color: #212121; color: #fff;">
     <div class="parent">
-        <!-- this is a comment -->
+        <!-- parent and child relationship-->
         <div class="day">Monday</div>
         <div class="day">Tuesday</div>
         <div class="day">Wednesday</div>
@@ -16,24 +16,18 @@
     </div>
 </body>
 <script>
-    const parent = document.querySelector('.parent')
-    // console.log(parent);
-    // console.log(parent.children);
-    // console.log(parent.children[1].innerHTML);
+    const parent = document.querySelector('.parent')// parent ko query selector se select kiya aur usko parent nam ke variable me sore kr diya
+    console.log(parent);   // usi ko log kra diya 
+    console.log(parent.children);   // parent se children pr jane k liye (monday , tuesday ,....)
+    console.log(parent.children[1].innerHTML);  // parent se children pr gaye aur 1 children ke html content ko access kiya 
+    
+    parent.children[1].style.color = "orange"   // parent se children pr gaye aur 1 children ke html content k color ko orange kr diya 
+    
+    const dayone =document.querySelector('.day') //query selector se class day ko access kiya . lga kr ye first one (single one) ko point krega
+    console.log('dayone'); // monday
+    console.log(dayone.parentElement);  // children se parent pr jane k liye
+    
 
-    // for (let i = 0; i < parent.children.length; i++) {
-    //      console.log(parent.children[i].innerHTML);
-        
-    // }
-    parent.children[1].style.color = "orange"
-    // console.log(parent.firstElementChild);
-    // console.log(parent.lastElementChild);
 
-    const dayOne = document.querySelector('.day')
-    // console.log(dayOne);
-    // console.log(dayOne.parentElement);
-    // console.log(dayOne.nextElementSibling);
-
-    console.log("NODES: ", parent.childNodes);
 </script>
 </html>
